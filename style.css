@@ -1,0 +1,57 @@
+article {
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(255, 255, 255);
+    display: grid;
+  }
+  
+  .div {
+    width: 1000px;
+    background: rgb(152, 152, 138);
+    height: 400px;
+    place-self: center; /* new */
+    border-radius: 30px;
+    display: grid;
+  }
+  .innerdiv{
+    width: 200;
+    background: rgb(152, 152, 138);
+    height: 50px;
+    place-self: center; /* new */
+    border-radius: 30px;
+    text-align: center;
+    margin-bottom: 70px;
+  }
+  .timerouter{
+    background-color: black;
+    padding: 20px;
+    border-radius: 9px;
+    
+  }
+  #timer{
+    font-size: 400%; 
+    background: inherit;
+    letter-spacing: 3px;
+    /* background-color: black; */
+    color:white;
+    padding: 20px;
+    border-radius: 9px;
+  }
+  .innertimerbtn{
+    margin-top: 20px;
+    
+  }
+  .btn{
+    margin: 20px;
+    width:150px;
+    height:50px;
+    border-radius: 20px;
+    background-color: aqua;
+    box-shadow: 05px 10px 0 rgba(0, 0, 0, 0.2);
+    
+  }
+  .btn:hover{
+    background-color: rgb(132, 185, 185);
+  }
+  
+  body {margin: 0;}
